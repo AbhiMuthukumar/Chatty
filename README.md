@@ -1,44 +1,18 @@
-React Boilerplate
-=====================
+1) Clone the app using below command
 
-A minimal and light dev environment for ReactJS.
+      git clone git@github.com:AbhiMuthukumar/Chatty.git <folder_name>
 
-### Usage
+2) npm install
 
-Clone the boilerplate and create your own git repo.
+3) go to chatty-server folder
 
-```
-git clone git@github.com:lighthouse-labs/react-simple-boilerplate.git
-git remote rm origin
-git remote add origin [YOUR NEW REPOSITORY]
-# Manually update your package.json file
-```
+4) npm install
 
-Install the dependencies and start the server.
+5) run the chatty app server from mainfolder Chatty using below command
+      npm start
 
-```
-npm install
-npm start
-open http://localhost:3000
-```
+6) run the web-socket server from chatty-server sub-folder using below command
+      node server.js
 
-### Static Files
-
-You can store static files like images, fonts, etc in the `build` folder.
-
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
-
-### Linting
-
-This boilerplate project includes React ESLint configuration.
-
-```
-npm run lint
-```
-
-### Dependencies
-
-* React
-* Webpack
-* [babel-loader](https://github.com/babel/babel-loader)
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+7) launch the app in your browser using below URL:
+      https://localhost:3000
